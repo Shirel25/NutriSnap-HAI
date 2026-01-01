@@ -113,10 +113,10 @@ def log_interaction(
         "ai_uncertainty": ai_uncertainty,
 
         # --- Action humaine ---
-        "human_action": action,          # accept | override | reject | manual_entry
+        "human_action": action,          # accept | override | reject
         "manual_input": manual_input,    # texte saisi par l’utilisateur
         "final_entry": manual_input if manual_input != "none" else ai_text,
-        "human_intervention": 1 if action in ["override", "manual_entry"] else 0,
+        "human_intervention": 1 if (action == "override") else 0,
 
         # --- Métriques ---
         "explanation_variant": wiz_explanation if st.session_state.condition == "IA (H+IA)" else "na",
@@ -249,7 +249,7 @@ if st.session_state.view == "upload":
 
     st.info(
     "📏 Conseil : pour une meilleure estimation des quantités, "
-    "incluez votre main sur la photo comme référence de taille."
+    "incluez votre main ou vos couverts sur la photo comme référence de taille."
     )
 
     uploaded_file = st.file_uploader(
@@ -344,7 +344,7 @@ elif st.session_state.view == "result":
         with col_info:
             # Badge d'incertitude actionnable (G2)
             color = {"Low": "green", "Medium": "orange"}[wiz_uncertainty]
-            st.markdown(f"Confiance IA : <span style='color:{color}; font-weight:bold'>{wiz_uncertainty}</span>", unsafe_allow_html=True)
+            st.markdown(f"Incertitude IA : <span style='color:{color}; font-weight:bold'>{wiz_uncertainty}</span>", unsafe_allow_html=True)
             
             st.write(f"**Plat identifié :** {wiz_dish_text}")
             st.write(f"**Énergie :** {wiz_calories} kcal")
@@ -385,7 +385,7 @@ elif st.session_state.view == "result":
         # -----------------------------
         # Logging de l'interaction
         # -----------------------------
-        if action:
+        if action == "accept" or action == "reject":
             log_interaction(
                 action=action,
                 ai_category=wiz_dish_category,
@@ -403,12 +403,6 @@ elif st.session_state.view == "result":
                 st.session_state.start_time = None
 
 
-            elif action == "override":
-                # ALMOST THERE → correction manuelle, même essai
-                # Pré-remplissage du formulaire manuel avec la sortie de l'IA
-                st.session_state.prefill_text = f"{wiz_dish_text}, {wiz_calories} kcal, {wiz_macros}"
-                st.session_state.view = "manual"
-
             elif action == "reject":
                 # NO → on vérifie le garde-fou GF1
                 st.session_state.fail_counter += 1
@@ -420,8 +414,15 @@ elif st.session_state.view == "result":
                 else:
                     # Même essai, nouvelle photo
                     st.session_state.view = "upload" # Seconde chance de photo 
-                
-            st.rerun()
+            
+        
+        elif action == "override":
+            # ALMOST THERE → correction manuelle, même essai
+            # Pré-remplissage du formulaire manuel avec la sortie de l'IA
+            st.session_state.prefill_text = f"{wiz_dish_text}, {wiz_calories} kcal, {wiz_macros}"
+            st.session_state.view = "manual"
+
+        st.rerun()
 
 
 # =========================================================
@@ -456,7 +457,12 @@ elif st.session_state.view == "manual":
         if submitted:
             # Logging de l'interaction
             log_interaction(
-                action="manual_entry",
+                action="override",
+                ai_category=wiz_dish_category,
+                ai_text=wiz_dish_text,
+                ai_calories=wiz_calories,
+                ai_uncertainty=wiz_uncertainty,
+                correct=wiz_correct,
                 manual_input=ingredients
             )
 
