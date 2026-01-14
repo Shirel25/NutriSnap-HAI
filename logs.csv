@@ -1,0 +1,191 @@
+timestamp,session_id,trial_id,condition,ai_category,ai_text,ai_calories,ai_uncertainty,human_action,manual_input,final_entry,human_intervention,explanation_variant,correct,decision_time_ms,image_id
+13/01/2026 21:07,00526388-169f-42f6-bf39-09927e02cff6,1,Humain (H_only),na,na,na,na,override,"Dessert fruits rouges, 500 Kcal, 10g/50g/15g","Dessert fruits rouges, 500 Kcal, 10g/50g/15g",1,na,na,88037,dessert_1.jpg
+13/01/2026 21:10,00526388-169f-42f6-bf39-09927e02cff6,2,Humain (H_only),na,na,na,na,override,"Pizza au fromage, 700 Kcal, 30 g / 70 g / 30 g","Pizza au fromage, 700 Kcal, 30 g / 70 g / 30 g",1,na,na,63101,pizza_3.jpg
+13/01/2026 21:13,00526388-169f-42f6-bf39-09927e02cff6,3,Humain (H_only),na,na,na,na,override,"Salade de carottes râpées, 160 kcal, 2 g / 20 g / 8 g","Salade de carottes râpées, 160 kcal, 2 g / 20 g / 8 g",1,na,na,58787,legume_3.jpg
+13/01/2026 21:15,00526388-169f-42f6-bf39-09927e02cff6,4,Humain (H_only),na,na,na,na,override,"Filet de poisson sole, 320 kcal, 20 g / 10 g / 10 g","Filet de poisson sole, 320 kcal, 20 g / 10 g / 10 g",1,na,na,56374,poisson_3.jpg
+13/01/2026 21:21,00526388-169f-42f6-bf39-09927e02cff6,5,Humain (H_only),na,na,na,na,override,"Pates au fromage / huile d'olive / parmesan, 600 kcal, 15 g / 60 g / 30 g","Pates au fromage / huile d'olive / parmesan, 600 kcal, 15 g / 60 g / 30 g",1,na,na,73628,pates_3.jpg
+13/01/2026 21:22,00526388-169f-42f6-bf39-09927e02cff6,6,Humain (H_only),na,na,na,na,override,"Jus d'orange, 100 kcal, 2 g / 20 g / 0 g","Jus d'orange, 100 kcal, 2 g / 20 g / 0 g",1,na,na,47647,boisson_3.jpg
+13/01/2026 21:24,00526388-169f-42f6-bf39-09927e02cff6,7,Humain (H_only),na,na,na,na,override,"Salade tomates / maïs / fromage / roquette / filet d'huile, 350 kcal, 15 g / 40 g / 20 g","Salade tomates / maïs / fromage / roquette / filet d'huile, 350 kcal, 15 g / 40 g / 20 g",1,na,na,90849,salade_3.jpg
+13/01/2026 21:26,00526388-169f-42f6-bf39-09927e02cff6,8,Humain (H_only),na,na,na,na,override,"Barre de céreales au chocolat, 200 kcal, 5 g / 30 g / 10 g","Barre de céreales au chocolat, 200 kcal, 5 g / 30 g / 10 g",1,na,na,47595,snack_1.jpg
+13/01/2026 21:27,00526388-169f-42f6-bf39-09927e02cff6,9,Humain (H_only),na,na,na,na,override,"Grillade de boeuf et frites, 850 kcal, 40 g / 40 g / 50 g","Grillade de boeuf et frites, 850 kcal, 40 g / 40 g / 50 g",1,na,na,43239,viande_2.jpg
+13/01/2026 21:28,00526388-169f-42f6-bf39-09927e02cff6,10,Humain (H_only),na,na,na,na,override,"Oeufs brouillés, 300 kcal, 20 g / 5 g / 20 g","Oeufs brouillés, 300 kcal, 20 g / 5 g / 20 g",1,na,na,33100,oeuf_2.jpg
+13/01/2026 22:58,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,1,Humain (H_only),na,na,na,na,override,"Pêches, 60 kcal, 2 g / 15 g / 0 g","Pêches, 60 kcal, 2 g / 15 g / 0 g",1,na,na,34849,fruit_3.jpg
+13/01/2026 23:00,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,2,Humain (H_only),na,na,na,na,override,"Flan caramel, 280 kcal, 2 g / 40 g / 15 g","Flan caramel, 280 kcal, 2 g / 40 g / 15 g",1,na,na,85115,dessert_3.jpg
+13/01/2026 23:03,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,3,Humain (H_only),na,na,na,na,override,"Framboises / Mûres / Myrtilles, 90 kcal, 2 g / 20 g / 0 g","Framboises / Mûres / Myrtilles, 90 kcal, 2 g / 20 g / 0 g",1,na,na,52805,fruit_1.jpg
+13/01/2026 23:05,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,4,Humain (H_only),na,na,na,na,override,"Oeufs sur le plat et poivre, 260 kcal, 20 g / 2 g / 10 g","Oeufs sur le plat et poivre, 260 kcal, 20 g / 2 g / 10 g",1,na,na,42431,oeuf_1.jpg
+13/01/2026 23:06,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,5,Humain (H_only),na,na,na,na,override,"Poke bowl saumon, 520 kcal, 30 g / 40 g / 25 g","Poke bowl saumon, 520 kcal, 30 g / 40 g / 25 g",1,na,na,63799,poke_bowl_2.jpg
+13/01/2026 23:07,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,6,Humain (H_only),na,na,na,na,override,"Verre de vin rouge, 125 kcal, 0 g / 5 g / 0 g","Verre de vin rouge, 125 kcal, 0 g / 5 g / 0 g",1,na,na,30636,boisson_2.jpg
+13/01/2026 23:08,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,7,Humain (H_only),na,na,na,na,override,"Pain tranché, 220 kcal, 8 g / 45 g / 2 g","Pain tranché, 220 kcal, 8 g / 45 g / 2 g",1,na,na,59825,pain_3.jpg
+13/01/2026 23:10,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,8,Humain (H_only),na,na,na,na,override,"Pommes de terre sautés, 350 kcal, 5 g / 35 g / 20 g","Pommes de terre sautés, 350 kcal, 5 g / 35 g / 20 g",1,na,na,54413,legume_1.jpg
+13/01/2026 23:11,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,9,Humain (H_only),na,na,na,na,override,"Pâtes penne sauce tomate et basilic, 450 kcal, 15 g / 70 g / 10 g","Pâtes penne sauce tomate et basilic, 450 kcal, 15 g / 70 g / 10 g",1,na,na,61641,pates_1.jpg
+13/01/2026 23:12,58c2f5da-c0e3-418f-82bc-2208e3ec2c75,10,Humain (H_only),na,na,na,na,override,"Bol de riz blanc, 240 kcal, 5 g / 50 g / 0 g","Bol de riz blanc, 240 kcal, 5 g / 50 g / 0 g",1,na,na,38478,riz_1.jpg
+13/01/2026 23:17,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,1,Humain (H_only),na,na,na,na,override,"Tartines pain fromage blanc / confiture abricot / amandes effilées, 400 kcal, 10 g / 50 g / 20 g","Tartines pain fromage blanc / confiture abricot / amandes effilées, 400 kcal, 10 g / 50 g / 20 g",1,na,na,95939,pain_1.jpg
+13/01/2026 23:18,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,2,Humain (H_only),na,na,na,na,override,"Tranches de gruyère, 350 kcal, 20 g / 5 g / 25 g","Tranches de gruyère, 350 kcal, 20 g / 5 g / 25 g",1,na,na,61935,fromage_3.jpg
+13/01/2026 23:20,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,3,Humain (H_only),na,na,na,na,override,"Pavé de saumon, 450 kcal, 35 g / 10 g / 25 g","Pavé de saumon, 450 kcal, 35 g / 10 g / 25 g",1,na,na,66370,poisson_1.jpg
+13/01/2026 23:21,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,4,Humain (H_only),na,na,na,na,override,"Haricots verts avec ail, 150 kcal, 5 g / 10 g / 10 g","Haricots verts avec ail, 150 kcal, 5 g / 10 g / 10 g",1,na,na,60319,legume_2.jpg
+13/01/2026 23:24,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,5,Humain (H_only),na,na,na,na,override,"Pizza fromage / tomates / roquette, 720 kcal, 30 g / 75 g / 30 g","Pizza fromage / tomates / roquette, 720 kcal, 30 g / 75 g / 30 g",1,na,na,115352,pizza_2.jpg
+13/01/2026 23:25,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,6,Humain (H_only),na,na,na,na,override,"Salade verte / tomates / concombres / oignon, 80 kcal, 2 g / 5 g / 5 g","Salade verte / tomates / concombres / oignon, 80 kcal, 2 g / 5 g / 5 g",1,na,na,58051,salade_1.jpg
+13/01/2026 23:26,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,7,Humain (H_only),na,na,na,na,override,"Verre de coca, 110 kcal, 0 g / 35 g / 0 g","Verre de coca, 110 kcal, 0 g / 35 g / 0 g",1,na,na,42676,boisson_1.jpg
+13/01/2026 23:27,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,8,Humain (H_only),na,na,na,na,override,"Mangue, 135 kcal, 1 g / 35 g / 0 g","Mangue, 135 kcal, 1 g / 35 g / 0 g",1,na,na,43148,fruit_2.jpg
+13/01/2026 23:28,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,9,Humain (H_only),na,na,na,na,override,"Pâtes à la bolognaise, 600 kcal, 30 g / 75 g / 25 g","Pâtes à la bolognaise, 600 kcal, 30 g / 75 g / 25 g",1,na,na,53696,pates_2.jpg
+13/01/2026 23:30,41294b9c-4c2b-44fd-b68d-ce71e4518ce4,10,Humain (H_only),na,na,na,na,override,"Sandwich fromage et crudité, 450 kcal, 15 g / 50 g / 20 g","Sandwich fromage et crudité, 450 kcal, 15 g / 50 g / 20 g",1,na,na,70693,sandwich_2.jpg
+14/01/2026 00:36,f54d40c4-745c-4464-b55f-98482c57b0e1,1,IA (H+IA),Dessert,Dessert aux fruits rouges,480,Low,accept,none,"Dessert aux fruits rouges, 480 kcal, 8 g / 45 g / 25 g",0,"Biscuit, crème, fruits rouges, coulis ou nappage chocolat",Y,20029,dessert_1.jpg
+14/01/2026 00:39,f54d40c4-745c-4464-b55f-98482c57b0e1,2,IA (H+IA),Pizza,Pizza au fromage,720,Low,accept,none,"Pizza au fromage, 720 kcal, 28 g / 75 g / 32 g",0,"Pâte à pizza (farine de blé)
+Fromage fondu (mozzarella / mélange de fromages)
+Sauce tomate
+Huile utilisée à la cuisson",Y,30592,pizza_3.jpg
+14/01/2026 00:41,f54d40c4-745c-4464-b55f-98482c57b0e1,3,IA (H+IA),Legume,Salade de carottes râpées,160,Low,accept,none,"Salade de carottes râpées, 160 kcal, 2 g / 18 g / 8 g",0,"Carottes râpées, 
+Assaisonnement léger (huile), 
+Agrumes (morceaux d’orange), 
+Herbes fraîches (menthe)",Y,18450,legume_3.jpg
+14/01/2026 00:43,f54d40c4-745c-4464-b55f-98482c57b0e1,4,IA (H+IA),Poisson,Filet de poisson aux tomates,320,Low,accept,none,"Filet de poisson aux tomates, 320 kcal, 35 g / 6 g / 14 g",0,"Filet de poisson blanc (sole),
+Tomates cerises rôties,
+Huile d’olive / beurre de cuisson,
+Herbes (persil)",Y,12077,poisson_3.jpg
+14/01/2026 00:48,f54d40c4-745c-4464-b55f-98482c57b0e1,5,IA (H+IA),Pates,Pâtes au fromage et huile d’olive,620,Low,accept,none,"Pâtes au fromage et huile d’olive, 620 kcal, 18 g / 65 g / 30 g",0,"Pâtes (portion généreuse),
+Fromage râpé,
+Huile d’olive ajoutée au service,
+Absence de légumes ou protéines visibles",Y,13468,pates_3.jpg
+14/01/2026 00:54,f54d40c4-745c-4464-b55f-98482c57b0e1,6,IA (H+IA),Boisson,Jus d’orange,110,Low,accept,none,"Jus d’orange, 110 kcal, 2 g / 24 g / 0 g",0,"Jus d’orange pressé,
+Portion standard (~200 ml),
+Absence de fibres visibles (jus filtré)",Y,15453,boisson_3.jpg
+14/01/2026 00:56,f54d40c4-745c-4464-b55f-98482c57b0e1,7,IA (H+IA),Salade,"Salade de maïs, tomates et fromage",360,Low,accept,none,"Salade de maïs, tomates et fromage, 360 kcal, 14 g / 38 g / 18 g",0,"Maïs (source principale de glucides),
+Tomates cerises,
+Fromage type feta,
+Feuilles vertes (roquette),
+Assaisonnement à base d’huile",Y,15217,salade_3.jpg
+14/01/2026 01:05,f54d40c4-745c-4464-b55f-98482c57b0e1,8,IA (H+IA),Dessert,Dessert au chocolat,210,Low,accept,none,"Dessert au chocolat, 210 kcal, 5 g / 28 g / 9 g",0,Gâteau avec pépites de chocolat,N,18810,snack_1.jpg
+14/01/2026 01:08,f54d40c4-745c-4464-b55f-98482c57b0e1,9,IA (H+IA),Viande,Côte d'agneau,650,Low,accept,none,"Côte d'agneau, 850 kcal, 45 g / 40 g / 50 g",0,"Côtelette d'agneau,
+Matières grasses de cuisson,
+Navets, Sel",N,10761,viande_2.jpg
+14/01/2026 01:10,f54d40c4-745c-4464-b55f-98482c57b0e1,10,IA (H+IA),Salade,Salade de pomme de terre,300,Low,accept,none,"Salade de pomme de terre, 300 kcal, 20 g / 4 g / 22 g",0,"Pommes de terre,
+Cuisson à la poêle,
+Huile d'olive",N,8362,oeuf_2.jpg
+14/01/2026 16:00,88a27284-740c-4b03-836d-7b195c4fcf8d,1,IA (H+IA),Pates,Pates au fromage,450,Low,reject,none,"Pates au fromage, 480 kcal, 14 g / 70 g / 14 g",0,"Pâtes, sauce tomate, fromage",N,7040,fruit_3.jpg
+14/01/2026 16:03,88a27284-740c-4b03-836d-7b195c4fcf8d,1,IA (H+IA),Salade,Salade,80,Low,reject,none,"Salade verte simple, 80 kcal, 2 g / 6 g / 5 g",0,"Tomates, concombres, avocat ",N,8444,pizza_3.jpg
+14/01/2026 16:04,88a27284-740c-4b03-836d-7b195c4fcf8d,1,IA (H+IA),Salade,Salade,80,Low,override,"Pizza fromage/tomates/poivrons, 700 kcal, 30 g / 70 g / 30 g","Pizza fromage/tomates/poivrons, 700 kcal, 30 g / 70 g / 30 g",1,"Tomates, concombres, avocat ",N,85572,pizza_3.jpg
+14/01/2026 16:06,88a27284-740c-4b03-836d-7b195c4fcf8d,2,IA (H+IA),Poke Bowl,Poke Bowl,520,Medium,reject,none,"Poke Bowl, 520 kcal, 32 g / 45 g / 24 g",0,"Riz blanc, saumon cru, concombre, avocat",N,6951,snack_2.jpg
+14/01/2026 16:08,88a27284-740c-4b03-836d-7b195c4fcf8d,2,IA (H+IA),Salade,Salade composée,425,Medium,reject,none,"Salade composée, 360 kcal, 14 g / 38 g / 18 g",0,"Maïs, tomates, avocat, olives",N,9508,snack_2.jpg
+14/01/2026 16:09,88a27284-740c-4b03-836d-7b195c4fcf8d,2,IA (H+IA),Salade,Salade composée,250,Medium,override,"Snack kinder bueno, 250 kcal, 5 g / 30 g / 15 g","Snack kinder bueno, 250 kcal, 5 g / 30 g / 15 g",1,"Maïs, tomates, avocat, olives",N,59686,snack_2.jpg
+14/01/2026 16:11,88a27284-740c-4b03-836d-7b195c4fcf8d,3,IA (H+IA),Fruit,Pamplemousse,80,Low,reject,none,"Pamplemousse, 80 kcal, 1 g / 18 g / 0 g",0,"Pamplemousse frais,
+Portion : 1 fruit moyen (quartiers consommés),
+Fruit riche en eau,
+Faible densité calorique,
+Absence de sucre ajouté",N,9340,fruit_2.jpg
+14/01/2026 16:13,88a27284-740c-4b03-836d-7b195c4fcf8d,3,IA (H+IA),Fruit,Orange,65,Low,reject,none,"Orange, 65 kcal, 1 g / 16 g / 0 g",0,"Orange fraîche,
+Portion : 1 fruit moyen,
+Fruit riche en eau et vitamine C,
+Sucres naturellement présents,
+Absence de transformation ou sucre ajouté",N,6957,fruit_2.jpg
+14/01/2026 16:13,88a27284-740c-4b03-836d-7b195c4fcf8d,3,IA (H+IA),Fruit,Orange,65,Low,override,"Mangue, 135 kcal, 1 g / 35 g / 0 g","Mangue, 135 kcal, 1 g / 35 g / 0 g",1,"Orange fraîche,
+Portion : 1 fruit moyen,
+Fruit riche en eau et vitamine C,
+Sucres naturellement présents,
+Absence de transformation ou sucre ajouté",N,37104,fruit_2.jpg
+14/01/2026 16:17,88a27284-740c-4b03-836d-7b195c4fcf8d,4,IA (H+IA),Soupe,Soupe aux légumes,280,Medium,override,"Soupe aux légumes et lentilles, 280 kcal, 14 g / 36 g / 6 g","Soupe aux légumes et lentilles, 280 kcal, 14 g / 36 g / 6 g",1,"Légumes variés (courge, carotte, tomate, oignon),
+Lentilles (source de protéines végétales),
+Bouillon,
+Huile utilisée à la cuisson,
+Herbes fraîches (persil)",Y,31899,soupe_1.jpg
+14/01/2026 16:21,88a27284-740c-4b03-836d-7b195c4fcf8d,5,IA (H+IA),Pates,Pates au fromage et à l'huile d'olive,620,Low,override,"Pates au fromage et à l'huile d'olive, 620 kcal, 18 g / 65 g / 30 g","Pates au fromage et à l'huile d'olive, 620 kcal, 18 g / 65 g / 30 g",1,"Pâtes (portion généreuse),
+Fromage râpé,
+Huile d’olive ajoutée au service,
+Absence de légumes ou protéines visibles",Y,37522,pates_3.jpg
+14/01/2026 16:23,88a27284-740c-4b03-836d-7b195c4fcf8d,6,IA (H+IA),Boisson,Jus d'orange,110,Low,override,"Jus d'orange, 110 kcal, 2 g / 24 g / 0 g","Jus d'orange, 110 kcal, 2 g / 24 g / 0 g",1,"Jus d’orange pressé,
+Portion standard (~200 ml),
+Absence de fibres visibles (jus filtré)",Y,26993,boisson_3.jpg
+14/01/2026 16:27,88a27284-740c-4b03-836d-7b195c4fcf8d,7,IA (H+IA),Viande,Steak grillé avec frites,850,Low,override,"Steak grillé avec frites, 850 kcal, 45 g / 40 g / 50 g","Steak grillé avec frites, 850 kcal, 45 g / 40 g / 50 g",1,"Steak de bœuf (pièce épaisse, riche en lipides),
+Frites (pomme de terre + friture),
+Matières grasses de cuisson,
+Sel / assaisonnement",Y,24444,viande_2.jpg
+14/01/2026 16:29,88a27284-740c-4b03-836d-7b195c4fcf8d,8,IA (H+IA),Fruit,Pêche / Nectarine,60,Low,accept,none,"Pêche / Nectarine, 60 kcal, 1 g / 14 g / 0 g",0,"Fruit frais (pêche ou nectarine),
+Portion : 1 fruit moyen,
+Absence de sucre ajouté ou transformation",Y,9209,fruit_3.jpg
+14/01/2026 16:31,88a27284-740c-4b03-836d-7b195c4fcf8d,9,IA (H+IA),Dessert,Flan caramel,280,Low,override,"Gâteau au fromage caramel, 280 kcal, 8 g / 40 g / 8 g","Gâteau au fromage caramel, 280 kcal, 8 g / 40 g / 8 g",1,"Lait / crème,
+Œufs,
+Sucre (caramel),
+Base biscuitée légère",Y,26276,dessert_3.jpg
+14/01/2026 16:32,88a27284-740c-4b03-836d-7b195c4fcf8d,10,IA (H+IA),Fruit,Fruits Rouges,90,Low,accept,none,"Fruits Rouges, 95 kcal, 2 g / 18 g / 1 g",0,"Framboises,
+Myrtilles,
+Mûres,
+Fruits frais, non transformés",Y,31819,fruit_1.jpg
+14/01/2026 16:42,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,1,IA (H+IA),Boisson,Vin rouge,125,High,override,Verre de vin rouge,"Verre de vin rouge, 125 kcal, 0 g / 4 g / 0 g",1,Verre de vin rouge,N,19768,boisson_2.jpg
+14/01/2026 16:47,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,2,IA (H+IA),Riz/Céréales,Riz,240,Low,accept,none,"Riz, 240 kcal, 5 g / 52 g / 1 g",0,"Riz blanc cuit,
+Portion standard (bol individuel),
+Absence de matières grasses ou sauce visibles",Y,14696,riz_1.jpg
+14/01/2026 16:48,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,3,IA (H+IA),Riz/Céréales,Barre de céréales,210,Medium,accept,none,"Barre de céréales, 210 kcal, 5 g / 28 g / 9 g",0,"Flocons d’avoine / céréales,
+Chocolat,
+Sucre / sirop liant (miel ou glucose)",Y,11713,snack_1.jpg
+14/01/2026 16:50,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,4,IA (H+IA),Oeuf,Œufs brouillés,300,Low,override,"Œufs brouillés, 300 kcal, 20 g / 4 g / 22 g","Œufs brouillés, 300 kcal, 20 g / 4 g / 22 g",1,"Œufs (2 à 3 œufs),
+Matière grasse de cuisson (beurre ou huile),
+Absence d’ingrédients sucrés ou féculents,
+Accompagnement léger (pain visible mais non inclus)",Y,19133,oeuf_2.jpg
+14/01/2026 16:53,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,5,IA (H+IA),Poke Bowl,Poké bowl au saumon,520,Medium,accept,none,"Poké bowl au saumon, 520 kcal, 32 g / 45 g / 24 g",0,"Saumon cru mariné,
+Riz blanc,
+Avocat,
+Algues (wakame),
+Légumes frais (concombre, radis, chou),
+Graines de sésame",Y,5281,poke_bowl_2.jpg
+14/01/2026 16:54,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,6,IA (H+IA),Pain,Baguette,220,Low,override,"Pain artisanal, 220 kcal, 8 g / 44 g / 2 g","Pain artisanal, 220 kcal, 8 g / 44 g / 2 g",1,"Pain à base de farine de blé,
+Absence de matières grasses ajoutées visibles",N,12654,pain_3.jpg
+14/01/2026 16:56,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,7,IA (H+IA),Legume,Salade de carottes râpées,160,Medium,reject,none,"Salade de carottes râpées, 160 kcal, 2 g / 18 g / 8 g",0,"Carottes râpées,
+Assaisonnement léger (huile),
+Agrumes (morceaux d’orange),
+Herbes fraîches (menthe)",N,4272,salade_3.jpg
+14/01/2026 16:56,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,7,IA (H+IA),Legume,Salade de carottes râpées,160,Medium,reject,none,"Salade de carottes râpées, 150 kcal, 2 g / 17 g / 9 g",0,"Carottes râpées,
+Assaisonnement léger (huile),
+Agrumes (morceaux d’orange),
+Herbes fraîches (menthe)",N,3614,salade_3.jpg
+14/01/2026 16:57,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,7,IA (H+IA),Legume,Salade de carottes râpées,160,Medium,override,"Salade composée, 360 kcal, 15 g / 40 g / 58 g","Salade composée, 360 kcal, 15 g / 40 g / 58 g",1,"Carottes râpées,
+Assaisonnement léger (huile),
+Agrumes (morceaux d’orange),
+Herbes fraîches (menthe)",N,65885,salade_3.jpg
+14/01/2026 16:59,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,8,IA (H+IA),Legume,Pommes de terre sautées,350,Low,accept,none,"Pommes de terre sautées, 350 kcal, 6 g / 45 g / 18 g",0,"Pommes de terre,
+Cuisson à la poêle,
+Huile utilisée pour le rissolage,
+Assaisonnement (sel, épices)",Y,9629,legume_1.jpg
+14/01/2026 17:02,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,9,IA (H+IA),Pates,Spaghetti à la sauce tomate,480,Low,override,"Penne à la sauce tomate, 480 kcal, 14 g / 70 g / 14 g","Penne à la sauce tomate, 480 kcal, 14 g / 70 g / 14 g",1,"Pâtes,
+Sauce tomate,
+Huile d’olive utilisée pour la sauce,
+Herbes séchées (origan / basilic)",Y,14476,pates_1.jpg
+14/01/2026 17:04,2c9c0ac5-a949-475c-b38e-da9b6b44bfc6,10,IA (H+IA),Riz/Céréales,Bol de riz à l’avocat,430,Medium,override,"Bol de riz à l’avocat, 450 kcal, 10 g / 48 g / 25 g","Bol de riz à l’avocat, 450 kcal, 10 g / 48 g / 25 g",1,"Riz blanc (base du bol),
+Avocat (source principale de lipides),
+Graines de sésame,
+Assaisonnement léger",Y,17841,riz_2.jpg
+14/01/2026 17:18,53ce6d63-f395-438b-b3f7-42c23ac8b814,1,IA (H+IA),Boisson,Boisson,140,Low,accept,none,"Boisson, 140 kcal, 0 g / 35 g / 0 g",0,"Boisson gazeuse sucrée (type cola),
+Portion standard (~330 ml),
+Sucre ajouté (principale source calorique),
+Absence de protéines et lipides",Y,8040,boisson_1.jpg
+14/01/2026 17:54,53ce6d63-f395-438b-b3f7-42c23ac8b814,2,IA (H+IA),Dessert,Dessert aux fruits ,480,Medium,override,"Dessert aux fruits rouges et myrtilles, 480 kcal, 8 g / 45 g / 25 g","Dessert aux fruits rouges et myrtilles, 480 kcal, 8 g / 45 g / 25 g",1,"Biscuit / génoise imbibée,
+Crème (mascarpone ou chantilly),
+Fruits rouges (fraises, framboises, myrtilles),
+Coulis ou nappage chocolat",Y,24989,dessert_1.jpg
+14/01/2026 18:01,53ce6d63-f395-438b-b3f7-42c23ac8b814,3,IA (H+IA),Legume,Patate douce rôties,320,High,override,"Haricots verts à l'ail, 150 kcal, 4 g / 12 g / 9 g","Haricots verts à l'ail, 150 kcal, 4 g / 12 g / 9 g",1,"Patates douces,
+Cuisson au four,
+Huile (enrobage pour rôtissage),
+Épices / herbes",N,82512,legume_2.jpg
+14/01/2026 18:05,53ce6d63-f395-438b-b3f7-42c23ac8b814,4,IA (H+IA),Fromage,Fromage Raclette,300,Medium,override,"Fromage Camembert, 300 kcal, 18 g / 2 g / 25 g","Fromage Camembert, 300 kcal, 18 g / 2 g / 25 g",1,"Fromage à pâte molle
+Portion estimée : ~75 g,
+Forte teneur en lipides,
+Apport protéique modéré,
+Absence d’accompagnement visible",Y,29464,fromage_1.jpg
+14/01/2026 18:10,53ce6d63-f395-438b-b3f7-42c23ac8b814,5,IA (H+IA),Soupe,Soupe champignons,280,Medium,reject,none,"Soupe champignons, 280 kcal, 10 g / 30 g / 6 g",0,"Champignons,
+Bouillon,
+Huile utilisée à la cuisson,
+Herbes fraîches (persil)",N,12007,dessert_2.jpg
+14/01/2026 18:12,53ce6d63-f395-438b-b3f7-42c23ac8b814,5,IA (H+IA),Dessert,Dessert pêche et crème,350,Medium,override,"Tiramissu pêche et crème, 350 kcal, 8 g / 42 g / 16 g","Tiramissu pêche et crème, 350 kcal, 8 g / 42 g / 16 g",1,dessert pêches,N,18205,dessert_2.jpg
+14/01/2026 18:19,53ce6d63-f395-438b-b3f7-42c23ac8b814,6,IA (H+IA),Snack/Gouter,Barre chocolatée,250,Low,accept,none,"Barre chocolatée, 250 kcal, 35 g / 2 g / 0 g",0,"Chocolat au lait,
+Garniture sucrée (caramel / nougat / crème),
+Sucre ajouté,
+Matières grasses (beurre de cacao, graisses végétales)",N,12118,snack_2.jpg
+14/01/2026 18:23,53ce6d63-f395-438b-b3f7-42c23ac8b814,7,IA (H+IA),Pizza,Pizza,420,Low,accept,none,"Pizza, 420 kcal, 14 g / 38 g / 22 g",0,"Pate de pizza,
+Fromage fondu (type emmental / mozzarella),
+Olives noires,
+Tomates cerises,
+Huile d’olive / tapenade,
+Herbes aromatiques",N,14269,pain_2.jpg
+14/01/2026 18:26,53ce6d63-f395-438b-b3f7-42c23ac8b814,8,IA (H+IA),Salade,Salade,280,Medium,override,"Salade tomates/concombres/olives/oignons, 280 kcal, 9 g / 18 g / 20 g","Salade tomates/concombres/olives/oignons, 280 kcal, 9 g / 18 g / 20 g",1,Salade composée,Y,42670,salade_2.jpg
+14/01/2026 18:30,53ce6d63-f395-438b-b3f7-42c23ac8b814,9,IA (H+IA),Boisson,Jus d'orange,280,Low,accept,none,"Jus d'orange, 280 kcal, 0 g / 0 g / 25 g",0,"Jus d’orange pressé,
+Portion standard (~200 ml),
+Absence de fibres visibles (jus filtré)",N,7573,boisson_3.jpg
+14/01/2026 18:33,53ce6d63-f395-438b-b3f7-42c23ac8b814,10,IA (H+IA),Snack/Gouter,Cookie au chocolat,230,Medium,override,"Cookie au chocolat, 230 kcal, 3 g / 30 g / 11 g","Cookie au chocolat, 230 kcal, 3 g / 30 g / 11 g",1,Cookie pépites de chocolat ,Y,9881,snack_3.jpg

@@ -71,6 +71,8 @@ if "condition_confirmed" not in st.session_state:
 if "start_time" not in st.session_state:
     st.session_state.start_time = None              # Pour le calcul du decision_time_ms
 
+if "uploaded_image" not in st.session_state:
+    st.session_state.uploaded_image = None          # Pour l'ID de l'image
 
 # =========================================================
 # 3. FONCTION DE LOGGING
@@ -82,7 +84,8 @@ def log_interaction(
     ai_text="na",
     ai_calories="na",
     ai_uncertainty="na",
-    correct="na"
+    correct="na",
+    uploaded_image="none"
 ):
     """
     Enregistre UNE interaction utilisateur dans logs.csv
@@ -92,6 +95,9 @@ def log_interaction(
     else:
         duration = int((time.time() - st.session_state.start_time) * 1000)
 
+    # Entrée de l'IA
+    ai_full_entry = f"{ai_text}, {ai_calories} kcal, {wiz_macros}"
+
     # Groupe contrôle : aucune sortie IA
     if st.session_state.condition == "Humain (H_only)":
         ai_category = "na"
@@ -99,6 +105,7 @@ def log_interaction(
         ai_calories = "na"
         ai_uncertainty = "na"
         correct = "na"
+
 
     log_data = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -115,13 +122,16 @@ def log_interaction(
         # --- Action humaine ---
         "human_action": action,          # accept | override | reject
         "manual_input": manual_input,    # texte saisi par l’utilisateur
-        "final_entry": manual_input if manual_input != "none" else ai_text,
+        "final_entry": manual_input if manual_input != "none" else ai_full_entry,
         "human_intervention": 1 if (action == "override") else 0,
 
         # --- Métriques ---
         "explanation_variant": wiz_explanation if st.session_state.condition == "IA (H+IA)" else "na",
         "correct": correct,
-        "decision_time_ms": duration
+        "decision_time_ms": duration,
+
+        # --- ID image ---
+        "image_id": st.session_state.uploaded_image.name
 
     }
     
@@ -392,7 +402,8 @@ elif st.session_state.view == "result":
                 ai_text=wiz_dish_text,
                 ai_calories=wiz_calories,
                 ai_uncertainty=wiz_uncertainty,
-                correct=wiz_correct
+                correct=wiz_correct,
+                uploaded_image=st.session_state.uploaded_image.name
             )
             
             # --- Transitions ---
@@ -463,7 +474,8 @@ elif st.session_state.view == "manual":
                 ai_calories=wiz_calories,
                 ai_uncertainty=wiz_uncertainty,
                 correct=wiz_correct,
-                manual_input=ingredients
+                manual_input=ingredients,
+                uploaded_image=st.session_state.uploaded_image.name
             )
 
             st.session_state.fail_counter = 0
