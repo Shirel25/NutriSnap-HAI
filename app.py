@@ -83,6 +83,7 @@ def log_interaction(
     ai_category="na",
     ai_text="na",
     ai_calories="na",
+    ai_macros="na",
     ai_uncertainty="na",
     correct="na",
     uploaded_image="none"
@@ -103,6 +104,7 @@ def log_interaction(
         ai_category = "na"
         ai_text = "na"
         ai_calories = "na"
+        ai_macros = "na"
         ai_uncertainty = "na"
         correct = "na"
 
@@ -117,6 +119,7 @@ def log_interaction(
         "ai_category": ai_category,
         "ai_text": ai_text,
         "ai_calories": ai_calories,
+        "ai_macros": wiz_macros if st.session_state.condition == "IA (H+IA)" else "na",
         "ai_uncertainty": ai_uncertainty,
 
         # --- Action humaine ---
