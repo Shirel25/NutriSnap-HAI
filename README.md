@@ -44,18 +44,15 @@ Le prototype implémente plusieurs principes de conception issus des recommandat
 - Python 3.x  
 - Bibliothèques Python : `streamlit`, `pandas`
 
-Installation des dépendances :
-```bash
-python -m streamlit run app.py
-```
 
 ---
 
 ## 💻 Lancement du prototype
 
 Pour exécuter l’application Streamlit, lancez la commande suivante :
-
-    ```python -m streamlit run app.py```
+```bash
+python -m streamlit run app.py
+```
 
 ---
 
